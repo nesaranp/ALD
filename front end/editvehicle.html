@@ -1,0 +1,90 @@
+<html>
+<head>
+  <title>edit vehicle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="H:/NIIT/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  <link rel="stylesheet" href="H:/NIIT/bootstrap-3.3.7-dist/js/bootstrap.min.js">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body bgcolor:"red">
+<div class = "page">
+
+    <div class= "sidenav">
+      <ul type="none">
+        <li><a href="addclient.html"><span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;ADD CLIENT</a></li>
+        <li><a href="editclient.html"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;EDIT CLIENT</a></li>
+        <li><a href="addvehicle.html"><span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;ADD VEHICLE</a></li>
+        <li><a class="active" href="editvehicle.html"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;EDIT VEHICLE</a></li>
+      </ul>
+    </div>
+
+    <div class="topnav">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="home.html">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="home.html">Home</a></li>
+       </ul>
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </div>
+
+    <div class="main">
+      <h2>Edit vehicle data</h2>
+      <br>
+
+      <form>
+
+                <fieldset>
+                  <legend>user data:</legend>
+                <h5>User Name:</h5>
+                <input type="text" name="username" disabled/><br>
+              </fieldset>
+              <br>
+        <fieldset>
+          <legend>driver data:</legend>
+          <h5>First Name:</h5>
+          <input type="text" name="firstname"/><br>
+          <h5>Second Name:</h5>
+          <input type="text" name="secondname"/><br>
+          <h5>Last Name:</h5>
+          <input type="text" name="lastname"/><br>
+          <h5>DL Number:</h5>
+          <input type="text" name="dlnumber"/><br>
+          <h5>Mobile Number:</h5>
+          <input type="text" name="mobnumber"/><br>
+        </fieldset>
+<br>
+      <fieldset>
+        <legend>car data:</legend>
+        <h5>Car Number:</h5>
+        <input type="text" name="carnumber" disabled/><br>
+        <h5>Microchip Number:</h5>
+        <input type="text" name="chipnumber"/><br>
+        <h5>Microchip: </h5><br>
+        <div >
+          <input id="radio" type="radio" name="enable"><h5>ENABLE</h5>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input id="radio" type="radio" name="dissable"><h5>DISSABLE</h5><br>
+        </div>
+      </fieldset>
+<br>
+        &nbsp;&nbsp;<button type="submit" name="enter">SUBMIT</button>&nbsp;&nbsp;
+        <button type="reset" name="cancle">CANCLE</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

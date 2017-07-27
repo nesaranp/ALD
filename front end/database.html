@@ -1,0 +1,68 @@
+<html>
+<head>
+  <title>add client</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="H:/NIIT/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  <link rel="stylesheet" href="H:/NIIT/bootstrap-3.3.7-dist/js/bootstrap.min.js">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body bgcolor:"red">
+<div class = "page">
+
+    <div class= "sidenav">
+      <ul type="none">
+        <li><a href="addclient.html"><span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;ADD CLIENT</a></li>
+        <li><a href="editclient.html"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;EDIT CLIENT</a></li>
+        <li><a href="addvehicle.html"><span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;ADD VEHICLE</a></li>
+        <li><a href="editvehicle.html"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;EDIT VEHICLE</a></li>
+      </ul>
+    </div>
+
+    <div class="topnav">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="home.html">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="home.html">Home</a></li>
+       </ul>
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    </div>
+
+
+    <div class="main">
+      <h2>Database</h2>
+      <br>
+      <div class="subnav">
+        <div class="dropdown">
+        <button style="float:left" id="filter" type="button" name="filter"><span class="glyphicon glyphicon-filter"></span>Filter</button>
+        <div class="dropdown-content">
+
+          <input type="checkbox" name="filter-type"/>User-name<br>
+          <input type="checkbox" name="filter-type"/>Name<br>
+          <input type="checkbox" name="filter-type"/>Vehicle number<br>
+
+          </div>
+        </div>
+        <input type="text" name="searchbar" placeholder="search"/>
+        <button type="button" name="search"><span class="	glyphicon glyphicon-search"></span>&nbsp;</button>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
